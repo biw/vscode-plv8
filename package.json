@@ -1,0 +1,36 @@
+{
+  "name": "vscode-plv8",
+  "displayName": "PLV8",
+  "description": "Highlight PLV8 JavaScript code in SQL",
+  "version": "1.0.0",
+  "publisher": "biwills",
+  "icon": "docs/logo.png",
+  "keywords": [
+    "plv8",
+    "sql"
+  ],
+  "repository": {
+    "url": "https://github.com/biw/vscode-plv8"
+  },
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/highlight-js-in-sql.json",
+        "scopeName": "sql-js.injection",
+        "injectTo": [
+          "source.sql"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.javascript": "javascript"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fileTypes": ["sql"],
+  "injectionSelector": "L:source.sql",
+  "patterns": [
+    {
+      "begin": "AS \\$\\$",
+      "end": "\\$\\$ LANGUAGE plv8 IMMUTABLE STRICT",
+      "patterns": [
+        {
+          "include": "source.js"
+        }
+      ]
+    }
+  ],
+  "scopeName": "sql-js.injection"
+}
