@@ -3,8 +3,7 @@
   "displayName": "PLV8",
   "description": "Highlight PLV8 JavaScript code in SQL",
   "version": "1.0.0",
-  "publisher": "biwills",
-  "icon": "docs/logo.png",
+  "publisher": "biw",
   "keywords": [
     "plv8",
     "sql"
