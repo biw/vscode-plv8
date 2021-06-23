@@ -1,6 +1,6 @@
 # PLV8 for vscode
 
-Adds support for JavaScript highlighting in [PLV8 PostgreSQL](https://github.com/plv8/plv8) code.
+Adds support for JavaScript syntax highlighting in [PLV8 PostgreSQL](https://github.com/plv8/plv8) code.
 
 <img width="1552" alt="Screen Shot 2021-06-23 at 11 06 27 AM" src="https://user-images.githubusercontent.com/6139501/123146730-12371900-d413-11eb-8c38-a6fac9a9f2f9.png">
 
