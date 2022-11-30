@@ -8,6 +8,11 @@ Adds support for JavaScript syntax highlighting in [PLV8 PostgreSQL](https://git
 
 https://marketplace.visualstudio.com/items?itemName=biw.vscode-plv8
 
+## Usage
+
+* Install this extension
+* Wrap your plv8 code in `$$ /* Your PLV8 Code */ $$ LANGUAGE plv8` to activate syntax.
+
 ## Todo
 
 - [ ] Add support for JavaScript Intellisense inside of PLV8 code

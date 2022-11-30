@@ -1,10 +1,12 @@
 {
-  "fileTypes": ["sql"],
+  "fileTypes": [
+    "sql"
+  ],
   "injectionSelector": "L:source.sql",
   "patterns": [
     {
       "begin": "AS \\$\\$",
-      "end": "\\$\\$ LANGUAGE plv8 IMMUTABLE STRICT",
+      "end": "\\$\\$ LANGUAGE plv8",
       "patterns": [
         {
           "include": "source.js"
